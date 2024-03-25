@@ -19,8 +19,8 @@ public class Task_17 {
 				Thread.sleep(3000);
 				WebElement clickable =driver.findElement(By.xpath("//div[@class='accountInner']"));
 				new Actions(driver)
-	            .clickAndHold(clickable)
-	            .perform();
+	                        .clickAndHold(clickable)
+	                        .perform();
 				Thread.sleep(3000);
 				driver.findElement(By.xpath("//span[@class='accountBtn btn rippleWhite']")).click();
 				Thread.sleep(3000);
@@ -30,7 +30,7 @@ public class Task_17 {
 				driver.findElement(By.xpath("//*[@id=\"checkUser\"]")).click();
 				//driver.findElement(By.xpath("(//input[class='hidden ghost-input']")).sendKeys("testemailgv2000@gmail");
 				//driver.findElement(By.xpath("//*[@id=\"j_number\"]")).sendKeys("6382965919");
-			    //driver.findElement(By.xpath("//*[@id=\"j_name\"]")).sendKeys("ABD");
+			        //driver.findElement(By.xpath("//*[@id=\"j_name\"]")).sendKeys("ABD");
 				//driver.findElement(By.xpath("//*[@id=\"j_password\"]")).sendKeys("Abdsnapdeal@786");
 				//driver.findElement(By.xpath("//*[@id=\"userSignup\"]")).click();
 				//driver.findElement(By.xpath("//*[@id=\"registerUser\"]")).click();
